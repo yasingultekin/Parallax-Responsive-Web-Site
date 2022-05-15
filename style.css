@@ -16,6 +16,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;
      /* display: flex;
     align-items: center;
@@ -102,7 +103,7 @@ section p {
     }
 }
 
-@media (max-width:350px){
+@media (max-width:300px){
     .img2 img {
         width: 250px;
     }
