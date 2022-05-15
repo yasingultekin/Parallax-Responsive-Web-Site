@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@100;400;700;900&family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    opacity: .73;
+    line-height: 2rem;
+}
+
+.bg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+     /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    place-items: center;
+}
+
+.img1 {
+    background-image: url(./images/bg.jpg);
+}
+
+.bg h2 {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    border-radius: 30px 0 30px 0;
+    padding: 2rem;
+    letter-spacing: .7rem;
+    font-size: 3rem;
+    outline: .5rem solid purple;
+    outline-offset: 16px;
+    font-weight: normal;
+    outline-style: inset;
+    text-align: center;
+}
+
+span {
+    font-weight: 900;
+}
+
+section {
+    text-align: center;
+    padding: 3rem;   
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+section p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.light {
+    background-color: #F1F1F1;
+}
+
+.img2 {
+    background-image: url(./images/bg2.jpg);
+}
+
+.img2 img {
+    width: 30%;
+}
+
+.dark {
+    background-color: black;
+    color: #DDDDDD;
+    
+}
+
+.img3 {
+    background-image: url(./images/bg3.jpg);
+}
+
+.img4 {
+    background-image: url(./images/bg4.jpg);
+}
+
+@media (max-width:850px) {
+    .container h2 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 16px 0;
+        outline-offset: 4px;
+        letter-spacing: 0;
+    }
+    section {
+        text-align: center;
+        padding: 48px 40px;
+    }
+}
+
+@media (max-width:350px){
+    .img2 img {
+        width: 250px;
+    }
+    .container h2{
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 8px 0;
+        outline-offset: 4px;
+        letter-spacing: 0;
+    }
+
+}
